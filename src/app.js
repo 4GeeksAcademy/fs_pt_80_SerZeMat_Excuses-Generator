@@ -18,7 +18,11 @@ const when = [
   "mientras estaba conduciendo"
 ];
 
-//Creamos el generador con el principio de una sola responsabilidad
+//  const getRadom = (arra_y) => {
+//  let result = Math.floor(Math.random() * arra_y.length);
+//  return result; }
+
+// Abreviamos funciones y creamos el generador con el principio de una sola responsabilidad
 
 const getRandom = arra_y => Math.floor(Math.random() * arra_y.length);
 const getValue = arra_y => arra_y[getRandom(arra_y)];
